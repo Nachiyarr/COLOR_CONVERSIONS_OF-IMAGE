@@ -1,5 +1,5 @@
 # COLOR_CONVERSIONS_OF-IMAGE
-## AIM
+## AIM:
 To write a python program using OpenCV to do the following image manipulations.
 
 i) Read, display, and write an image.
@@ -36,8 +36,8 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+### Developed By:ALAGU NACHIYAR K
+### Register Number: 212222240006
 
 
 ## Output:
