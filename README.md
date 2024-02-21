@@ -89,7 +89,14 @@ Split and merge HSV Image
 
 ### v)Cut and paste portion of image
 ```
-
+  import cv2
+  image=cv2.imread('flower.jpg',1)
+  image=cv2.resize(image,(400,400))
+  tag =image[130:200,110:190]
+  image[110:180,120:200] = tag
+  cv2.imshow('cut and paste',image)
+  cv2.waitKey(0)
+  cv2.destroyAllWindows()
 ```
 ### Output:
 ![s6](https://github.com/Nachiyarr/COLOR_CONVERSIONS_OF-IMAGE/assets/113497340/ecec0ea8-f09c-4a6c-9136-5a9eced67274)
